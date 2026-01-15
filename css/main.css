@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-family: "Helvetica", "Verdana", "Roboto", sans-serif;
+    line-height: 1.5;
+    color: black;
+    text-align: justify;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: white;
+    position: fixed; /* Fix the navbar to the viewport */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Ensure it starts from the left edge */
+    width: 100%; /* Ensure it spans the full width of the viewport */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the menu items within the navbar */
+}
+
+.navbar li a {
+    display: block; /* Make the links fill the list item space */
+    color: white;
+    text-align: center;
+    padding: 20px 30px; /* Adjust padding for desired menu height and spacing */
+    text-decoration: none; /* Remove underlines from links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar li a:hover {
+    background-color: #575757; /* Change background on hover */
+}
+
+.content {
+    width: 1024px;
+    padding: 20px;
+    padding-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:inherit;
+}
+
+.post_container {
+    width: 724px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;  /* Stretches the image to the container's width */
+    height: auto; /* Maintains the image's original aspect ratio */
+}
+
+h1, h2 {
+    line-height: 30px;
+    font-size: 30px;
+    color: #0a0002;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2.grid-caption {
+    text-decoration: underline;
+    margin: 0 0 7px;
+}
+
+div.grid-subcaption {
+    color: #0a0002;
+    font-weight: 100;
+    letter-spacing: 0.6px;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+}
+
+div.footer {
+    margin-top: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    color: #7d7d7d;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  color: inherit;
+}
+
+.post-card {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+}
+
+.post-card img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.post-caption {
+  padding: 0.75rem;
+}
+
+.post-caption h2 {
+  font-size: 1.1rem;
+  margin: 0;
+}
