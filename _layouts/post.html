@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="{{ page.bigimage | relative_url }}"/>
+{% include post-image.html file="cover.jpg" %}
 
 <h1>{{page.title}}</h1>
 <span style="color:lightgray;text-align: center;display: block;">{{ page.date | date: "%B, %Y" }}; author: {{ page.author }}</span>

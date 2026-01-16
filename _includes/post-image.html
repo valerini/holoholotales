@@ -1,0 +1,5 @@
+{% assign folder = page.path | split: '/' | last | remove: '.html' %}
+{% assign images_path = '/assets/images/' | append: folder | append: '/' %}
+
+<img src="{{ images_path | append: include.file | relative_url }}"
+     alt="{{ include.alt | default: page.title }}">
