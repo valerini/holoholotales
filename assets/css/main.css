@@ -59,10 +59,11 @@ body {
 }
 
 img {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    width: 100%;  /* Stretches the image to the container's width */
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
+    max-width: 100%;
     height: auto; /* Maintains the image's original aspect ratio */
+    vertical-align: middle;
 }
 
 h1, h2 {
@@ -75,6 +76,28 @@ h1, h2 {
     display: block;
     font-size: 2em;
     text-align: center;
+}
+
+#highlight {
+    border: 2px solid #B88B58;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    font: normal 27px / 1.2em "Helvetica Neue", Helvetica, sans-serif;
+    color: #B88B58;
+}
+
+#country {
+    border-left: 3px solid #B88B58;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 
 h2.grid-caption {
