@@ -149,3 +149,19 @@ div.footer {
   font-size: 1.1rem;
   margin: 0;
 }
+
+.media {
+  display: flex;
+  align-items: flex-start; /* top-align image & list */
+  gap: 20px;
+}
+
+.media-image {
+  width: 30%;   /* or max-width */
+  height: auto;
+}
+
+.media-list {
+  margin: 0;
+  padding-left: 20px;
+}
