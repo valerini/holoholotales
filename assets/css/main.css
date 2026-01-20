@@ -2,7 +2,7 @@ body {
     margin: 0;
     margin-top: 60px;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Helvetica", "Verdana", "Roboto", sans-serif;
     line-height: 1.5;
     color: black;
@@ -40,8 +40,7 @@ body {
 }
 
 .navbar li a:hover {
-    /* background-color: #575757; */ /* Change background on hover */
-    background-color: #F0F0F0;
+    background-color: #575757; /* Change background on hover */
 }
 
 .content {
@@ -68,14 +67,13 @@ img {
 }
 
 h1, h2 {
-    line-height: 30px;
-    font-size: 30px;
+    line-height: 2rem;
+    font-size: 2rem;
     color: #0a0002;
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     display: block;
-    font-size: 2em;
     text-align: center;
 }
 
