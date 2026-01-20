@@ -53,7 +53,7 @@ body {
 }
 
 .post_container {
-    width: 724px;
+    max-width: 724px;
     margin-right: auto;
     margin-left: auto;
 }
