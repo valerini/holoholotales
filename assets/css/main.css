@@ -216,3 +216,28 @@ div.footer {
   height: 100%;
   object-fit: cover;
 }
+
+.audio-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin: 24px 0;
+}
+
+.audio-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.audio-card audio {
+  width: 100%;
+}
+
+.audio-card {
+  border-left: 4px solid #34dfeb;
+}

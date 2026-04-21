@@ -3,6 +3,12 @@ Cover full-frame: 1170x705, under 350 KB
 
 Images in posts: 1440x960, under 350 KB
 
+Square images (collage-2), 700x700, under \~170 kB each
+
+Vertical images (collage-3), 600x1000, under \~150 kB each
+
+
+
 
 
 Ruby Installation:
