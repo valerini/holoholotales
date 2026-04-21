@@ -1,6 +1,8 @@
 {% assign folder = page.path | split: '/' | last | remove: '.html' %}
-{% assign images_path = '/assets/audio/' | append: folder | append: '.mp3' %}
+{% assign images_path = 'https://cdn.roamnroll.com/assets/audio/' | append: folder | append: '.mp3' %}
 
 <audio controls {% if include.style %}style="{{ include.style }}"{% endif %}>
-  <source src="{{ images_path | append: include.file | relative_url }}" type="audio/mpeg">
+  <source src="{{ images_path }}" type="audio/mpeg">
 </audio>
+
+<source src="https://cdn.yourdomain.com/audio/post1.mp3" type="audio/mpeg">
