@@ -241,3 +241,21 @@ div.footer {
 .audio-card {
   border-left: 4px solid #34dfeb;
 }
+
+summary {
+  cursor: pointer;           /* reinforces clickability */
+  list-style: initial;        /* keep the default triangle */
+  padding: 5px 0;
+  color: #0077cc;             /* make it a link-like color */
+  font-weight: 500;           /* slightly bolder text */
+  transition: color 0.2s;
+}
+
+summary:hover {
+  color: #005fa3;             /* darken on hover */
+  text-decoration: underline; /* underline on hover */
+}
+
+a {
+  color: #0077cc;             /* make it a link-like color */
+}
